@@ -13,3 +13,7 @@ You can create a service account key file in the Google Cloud Console by followi
     Click the "Create" button.
     In the "Create key" modal, select the key type (JSON is the default) and click the "Create" button.
     The key file will be downloaded to your computer.
+
+Important to note - DO NOT POST SERVICE ACCOUNT KEY FILE ONLINE. *Someone could use your private key to run queries and view the results. If your service account has access to Google Sheets, they could use your private key to read, write, and delete sheets in your Google Drive.
+
+It is important to keep your private key secure and not share it with anyone. If you believe that your private key has been compromised, you should immediately revoke the key and create a new one.*
